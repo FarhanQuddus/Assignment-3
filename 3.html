@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 3</title>
+</head>
+<body>
+    <h1>1:: CREATE AN IMAGE GALLERY THAT HOLDS MULTIPLE IMAGES.</h1>
+    <img src="https://media.istockphoto.com/id/2023972408/photo/doctor-teaching-medical-students-to-perform-cpr-on-a-dummy-at-the-hospital.webp?b=1&s=612x612&w=0&k=20&c=TkiS3CQda67zkqauw3S9z4W6Ili8lxurrYXy74lAyu0=" width="400" height="400" alt="dummy 1">
+    <img src=" https://media.istockphoto.com/id/2023731160/photo/medical-students-intubating-a-dummy-at-a-teaching-hospital.webp?b=1&s=612x612&w=0&k=20&c=LSxgx83XuIXNG966HRQllJSGoZbBROonyQkbwRxD9iw=" width="400" height="500" alt="dummy 2">
+    <img src="https://media.istockphoto.com/id/2023731160/photo/medical-students-intubating-a-dummy-at-a-teaching-hospital.webp?b=1&s=612x612&w=0&k=20&c=LSxgx83XuIXNG966HRQllJSGoZbBROonyQkbwRxD9iw= " width="500" height="500" alt="dummy 3">
+    <img src="https://media.istockphoto.com/id/2148746046/photo/medical-personnel-demonstrating-cpr-on-dummy.webp?b=1&s=612x612&w=0&k=20&c=EyfLa-UEaVjbWB0nk4k79OR5MwC2kx4lYAuVvwvXPFU=" width="600" height="400" alt="dummy 4">
+    <img src="https://media.istockphoto.com/id/1463083781/photo/female-surgeon-stands-with-the-two-medical-students-in-the-learning-lab-of-the-hospital.webp?b=1&s=612x612&w=0&k=20&c=4rx9xSN1eGePld5pGpqgd5QcktB310SCDGIKsuxfC_s=" width="400" height="600" alt="dummy 5">
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*U4gZLnRtHEeJuc6tdVLwPw.png" width="600" height="350" alt="dummy 6">
+    <img src="https://cdn.pixabay.com/photo/2013/03/24/19/11/pacifier-96504_640.jpg" width="950" height="600" alt="dummy7">
+</body>
+</html><hr>
+<hr>
+<hr>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>2:: USE VEDIO AND AUDIO TAGS TO DISPLAY VEDIO AND AUDIO WITH PLAYBACK AND AUDIO CONTROLS.</h1>
+    <audio controls>
+        <source src="audio1.mp3">
+    </audio>
+    <video width="500px" controls>
+        <source src="1MB.mp4" type="video/mp4">
+    </video>
+</body>
+</html><hr>
+<hr>
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>3:: modify the previous assignment so that audio and vedio play automatically as the page is loaded and they shoul play infinitely. </h1>
+    <audio src="audio1.mp3" controls muted autoplay loop>dummy audio</audio>
+    <video src="1MB.mp4" type="video/mp4" controls muted autoplay loop width="500px">foerst scene </video>
+</body>
+</html>
+<hr>
+<hr>
+<hr>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>4:: USE IFRAME TO EMBEDED THE PHYSICS WALLAH WIKIPEDIA PAGE PROPERLY.</h1>
+    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" frameborder="50px" width="500px" height="500px"></iframe>
+</body>
+</html>
+<hr>
+<hr>
+<hr>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>5:: CREATE A SIGN-UP AND SIGN -IN FORM WITH PROPER VALIDATION . <br>
+        i>. SIGN-UP FORM MUST HAVE A FIRST NAME ,LAST NAME ,EMAIL ,PASSWORD, CONFIRM PASSWORD, AGE, GENDER, AND AGREE TO THE TERM AND CONDITIONS . <br> 
+        ii>.SING-IN FORM SHOULD HAVE EMAIL AND PASSWORD FIELD.
+    </h1>
+    <form>
+        <label for="first name">FIRST NAME::</label>
+        <input type="text" name="first name " id="first name" placeholder="enter first name" minlength="3" maxlength="14" required /> 
+        <br>
+         <label for="last name">LAST NAME::</label>
+        <input type="text" name="last name" id="last name" placeholder="enter last name" minlength="3" maxlength="14" required /> 
+        <br>
+         <label for="email">EMAIL::</label>
+        <input type="email" name="email" id="email" placeholder="enter your email." required /> 
+        <br>
+         <label for="password">PASSWORD::</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" required /> 
+        <br>
+         <label for="confirm password">CONFIRM PASSWORD::</label>
+        <input type="password" name="confirm password" id="confirm password" placeholder="confirm your password" required /> 
+        <br>
+         <label for="age">AGE::</label>
+        <input type="number" name="age" id="age" placeholder="enter your age" min=0  max=100 /> 
+        <br>
+        <label for="gender">GENDER:: 
+        <input type="radio" name="gender" id="male" value="male" checked />
+        <label for="male">MALE::</label>
+            <input type="radio" id="male" value="male" name="gender" />
+         <label for="female">FEMALE::</label>
+         <input type="radio" id="female" value="female" name="gender"> 
+         <label for="other">OTHER::</label>
+         <input type="radio" id="other" value="other" name="gender" />
+        </label>
+        <br>
+        <label for="terms">TERMS::</label>
+        <input type="checkbox" name="gender" id="terms" required /> I AGREE THE TERMS AND CONDITIONS.
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
